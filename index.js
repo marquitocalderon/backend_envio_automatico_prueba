@@ -21,7 +21,7 @@ config()
 
 
 app.get('/', (req, res) => {
-    res.send("ya esta funcionando")
+    res.send("ya esta funcionandosafaf")
 })
 
 app.post('/enviar', async (req, res) => {
