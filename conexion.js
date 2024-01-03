@@ -18,7 +18,7 @@ config()
 
 const conectar = new pg.Pool({
   connectionString: process.env.DATABASE_URL,
-  // ssl:true
+  ssl:true
 })
 
 // Función para conectar y manejar la lógica de conexión
